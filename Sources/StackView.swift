@@ -26,5 +26,7 @@ private extension StackView {
         distribution = style.distribution
         alignment = style.alignment
         spacing = style.spacing
+        layoutMargins = style.layoutMargins
+        isLayoutMarginsRelativeArrangement = style.isLayoutMarginsRelativeArrangement
     }
 }

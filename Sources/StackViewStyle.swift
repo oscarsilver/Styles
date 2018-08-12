@@ -12,14 +12,20 @@ public struct StackViewStyle {
     let distribution: UIStackViewDistribution
     let alignment: UIStackViewAlignment
     let spacing: CGFloat
+    let layoutMargins: UIEdgeInsets
+    let isLayoutMarginsRelativeArrangement: Bool
 
     public init(axis: UILayoutConstraintAxis = .vertical,
          distribution: UIStackViewDistribution = .fill,
          alignment: UIStackViewAlignment = .fill,
-         spacing: CGFloat = 0) {
+         spacing: CGFloat = 0,
+         layoutMargins: UIEdgeInsets = .zero,
+         isLayoutMarginsRelativeArrangement: Bool = false) {
         self.axis = axis
         self.distribution = distribution
         self.alignment = alignment
         self.spacing = spacing
+        self.layoutMargins = layoutMargins
+        self.isLayoutMarginsRelativeArrangement = isLayoutMarginsRelativeArrangement
     }
 }
