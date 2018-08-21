@@ -11,25 +11,44 @@ public struct ButtonStyle {
     let font: UIFont
     let color: UIColor
     let textColor: UIColor
-    let height: CGFloat?
     let cornerRadius: CGFloat?
-    let gradient: Gradient?
     let shadow: ShadowStyle?
 
     public init(font: UIFont,
          color: UIColor,
          textColor: UIColor,
-         height: CGFloat? = nil,
          cornerRadius: CGFloat = 0,
-         gradient: Gradient? = nil,
          shadow: ShadowStyle? = nil
         ) {
         self.font = font
         self.color = color
         self.textColor = textColor
-        self.height = height
         self.cornerRadius = cornerRadius
-        self.gradient = gradient
         self.shadow = shadow
+    }
+}
+
+public extension UIButton {
+    public convenience init(title: String?, image: UIImage?, style: ButtonStyle) {
+        self.init(frame: .zero)
+        setTitle(title, for: .normal)
+        setImage(image, for: .normal)
+        setup(with: style)
+    }
+
+    func setup(with style: ButtonStyle) {
+        titleLabel?.font = style.font
+        backgroundColor = style.color
+        setTitleColor(style.textColor, for: .normal)
+
+        if let cornerRadius = style.cornerRadius {
+            layer.cornerRadius = cornerRadius
+        }
+
+        if let shadow = style.shadow {
+            layer.shadowColor = shadow.color.cgColor
+            layer.shadowRadius = shadow.radius
+            layer.shadowOpacity = shadow.opacity
+        }
     }
 }

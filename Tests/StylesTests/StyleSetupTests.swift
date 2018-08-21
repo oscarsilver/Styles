@@ -1,5 +1,5 @@
 //
-//  StylesTests.swift
+//  StyleSetupTests.swift
 //  Silver
 //
 //  Created by Oscar Silver on 2018-08-08.
@@ -20,12 +20,25 @@ class StyleSetupTests: XCTestCase {
                                textAlignment: .center,
                                numberOfLines: 1,
                                cornerRadius: 20)
-        let label = UILabel(style: style)
 
+        let text = "Test"
+        let label = UILabel(text: text, style: style)
+
+        XCTAssertEqual(label.text, text)
         XCTAssertEqual(label.font, style.font)
         XCTAssertEqual(label.textColor, style.textColor)
         XCTAssertEqual(label.textAlignment, style.textAlignment)
         XCTAssertEqual(label.numberOfLines, style.numberOfLines)
         XCTAssertEqual(label.layer.cornerRadius, style.cornerRadius)
+    }
+
+    func testButtonSetup() {
+        let style = ButtonStyle(font: font, color: .black, textColor: .white, cornerRadius: 20, shadow: nil)
+        let title = "Test"
+        let button = UIButton(title: title, image: nil, style: style)
+        XCTAssertEqual(button.titleLabel?.font, style.font)
+        XCTAssertEqual(button.backgroundColor, style.color)
+        XCTAssertEqual(button.titleLabel?.textColor, style.textColor)
+        XCTAssertEqual(button.layer.cornerRadius, style.cornerRadius)
     }
 }
