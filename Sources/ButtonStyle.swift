@@ -29,7 +29,7 @@ public struct ButtonStyle {
 }
 
 public extension UIButton {
-    public convenience init(title: String?, image: UIImage?, style: ButtonStyle) {
+    public convenience init(title: String? = nil, image: UIImage? = nil, style: ButtonStyle) {
         self.init(frame: .zero)
         setTitle(title, for: .normal)
         setImage(image, for: .normal)
@@ -43,6 +43,7 @@ public extension UIButton {
 
         if let cornerRadius = style.cornerRadius {
             layer.cornerRadius = cornerRadius
+            layer.masksToBounds = true
         }
 
         if let shadow = style.shadow {

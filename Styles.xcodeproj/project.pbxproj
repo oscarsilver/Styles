@@ -16,7 +16,6 @@
 		FA010757211B774B0090AF1D /* ViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA010737211B774B0090AF1D /* ViewStyle.swift */; };
 		FA01075B211B774B0090AF1D /* BorderStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA010738211B774B0090AF1D /* BorderStyle.swift */; };
 		FA01075F211B774B0090AF1D /* ImageViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA010739211B774B0090AF1D /* ImageViewStyle.swift */; };
-		FA010763211B774B0090AF1D /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA01073A211B774B0090AF1D /* ImageView.swift */; };
 		FA010767211B774B0090AF1D /* ShadowStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA01073B211B774B0090AF1D /* ShadowStyle.swift */; };
 		FA01076B211B774B0090AF1D /* TextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA01073C211B774B0090AF1D /* TextFieldStyle.swift */; };
 		FA01076F211B774B0090AF1D /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA01073D211B774B0090AF1D /* StackView.swift */; };
@@ -48,7 +47,6 @@
 		FA010737211B774B0090AF1D /* ViewStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewStyle.swift; sourceTree = "<group>"; };
 		FA010738211B774B0090AF1D /* BorderStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderStyle.swift; sourceTree = "<group>"; };
 		FA010739211B774B0090AF1D /* ImageViewStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewStyle.swift; sourceTree = "<group>"; };
-		FA01073A211B774B0090AF1D /* ImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		FA01073B211B774B0090AF1D /* ShadowStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowStyle.swift; sourceTree = "<group>"; };
 		FA01073C211B774B0090AF1D /* TextFieldStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldStyle.swift; sourceTree = "<group>"; };
 		FA01073D211B774B0090AF1D /* StackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackView.swift; sourceTree = "<group>"; };
@@ -110,7 +108,6 @@
 				FA010733211B774B0090AF1D /* AutoLayout.swift */,
 				FA010738211B774B0090AF1D /* BorderStyle.swift */,
 				FA010732211B774B0090AF1D /* ButtonStyle.swift */,
-				FA01073A211B774B0090AF1D /* ImageView.swift */,
 				FA010739211B774B0090AF1D /* ImageViewStyle.swift */,
 				FA010736211B774B0090AF1D /* LabelStyle.swift */,
 				FA01073B211B774B0090AF1D /* ShadowStyle.swift */,
@@ -269,7 +266,6 @@
 				FA010753211B774B0090AF1D /* LabelStyle.swift in Sources */,
 				FA01075B211B774B0090AF1D /* BorderStyle.swift in Sources */,
 				FA01076B211B774B0090AF1D /* TextFieldStyle.swift in Sources */,
-				FA010763211B774B0090AF1D /* ImageView.swift in Sources */,
 				FA01075F211B774B0090AF1D /* ImageViewStyle.swift in Sources */,
 				FA01074F211B774B0090AF1D /* TextField.swift in Sources */,
 				FA01076F211B774B0090AF1D /* StackView.swift in Sources */,
