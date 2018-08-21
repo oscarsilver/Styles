@@ -8,16 +8,24 @@
 
 import Foundation
 import XCTest
-import Styles
+@testable import Styles
 
-class StylesTests: XCTestCase {
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        //// XCTAssertEqual(Styles().text, "Hello, World!")
+class StyleSetupTests: XCTestCase {
+    private lazy var font = UIFont.systemFont(ofSize: 16)
+
+    func testLabelSetup() {
+        let style = LabelStyle(font: font,
+                               backgroundColor: .white,
+                               textColor: .black,
+                               textAlignment: .center,
+                               numberOfLines: 1,
+                               cornerRadius: 20)
+        let label = UILabel(style: style)
+
+        XCTAssertEqual(label.font, style.font)
+        XCTAssertEqual(label.textColor, style.textColor)
+        XCTAssertEqual(label.textAlignment, style.textAlignment)
+        XCTAssertEqual(label.numberOfLines, style.numberOfLines)
+        XCTAssertEqual(label.layer.cornerRadius, style.cornerRadius)
     }
-    
-    static var allTests = [
-        ("testExample", testExample),
-    ]
 }

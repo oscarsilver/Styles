@@ -25,7 +25,6 @@
 		FA010777211B774B0090AF1D /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA01073F211B774B0090AF1D /* Utilities.swift */; };
 		FA01077B211B774B0090AF1D /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA010740211B774B0090AF1D /* View.swift */; };
 		FA01077F211B774B0090AF1D /* StackViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA010741211B774B0090AF1D /* StackViewStyle.swift */; };
-		FA010783211B774B0090AF1D /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA010742211B774B0090AF1D /* Label.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +59,6 @@
 		FA01073F211B774B0090AF1D /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		FA010740211B774B0090AF1D /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		FA010741211B774B0090AF1D /* StackViewStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackViewStyle.swift; sourceTree = "<group>"; };
-		FA010742211B774B0090AF1D /* Label.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,7 +118,6 @@
 				FA010734211B774B0090AF1D /* Gradient.swift */,
 				FA01073A211B774B0090AF1D /* ImageView.swift */,
 				FA010739211B774B0090AF1D /* ImageViewStyle.swift */,
-				FA010742211B774B0090AF1D /* Label.swift */,
 				FA010736211B774B0090AF1D /* LabelStyle.swift */,
 				FA01073B211B774B0090AF1D /* ShadowStyle.swift */,
 				FA01073D211B774B0090AF1D /* StackView.swift */,
@@ -282,7 +279,6 @@
 				FA010763211B774B0090AF1D /* ImageView.swift in Sources */,
 				FA01075F211B774B0090AF1D /* ImageViewStyle.swift in Sources */,
 				FA01074F211B774B0090AF1D /* TextField.swift in Sources */,
-				FA010783211B774B0090AF1D /* Label.swift in Sources */,
 				FA010773211B774B0090AF1D /* Button.swift in Sources */,
 				FA01076F211B774B0090AF1D /* StackView.swift in Sources */,
 			);
