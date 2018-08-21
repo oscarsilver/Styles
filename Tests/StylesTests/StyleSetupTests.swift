@@ -1,11 +1,3 @@
-//
-//  StyleSetupTests.swift
-//  Silver
-//
-//  Created by Oscar Silver on 2018-08-08.
-//  Copyright © 2018 Silver. All rights reserved.
-//
-
 import Foundation
 import XCTest
 @testable import Styles

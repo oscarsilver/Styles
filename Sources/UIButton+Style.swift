@@ -1,10 +1,3 @@
-//
-//  ButtonStyle.swift
-//  SilverKit
-//
-//  Created by Oscar Silver on 2018-06-09.
-//
-
 import UIKit
 
 public struct ButtonStyle {

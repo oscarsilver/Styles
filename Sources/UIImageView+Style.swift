@@ -1,10 +1,3 @@
-//
-//  ImageViewStyle.swift
-//  SilverKit
-//
-//  Created by Oscar Silver on 2018-06-11.
-//
-
 import UIKit
 
 public struct ImageViewStyle {
