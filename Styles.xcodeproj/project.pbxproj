@@ -11,7 +11,6 @@
 		8933C7901EB5B82D000D00A4 /* StyleSetupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8933C7891EB5B82A000D00A4 /* StyleSetupTests.swift */; };
 		FA010743211B774B0090AF1D /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA010732211B774B0090AF1D /* ButtonStyle.swift */; };
 		FA010747211B774B0090AF1D /* AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA010733211B774B0090AF1D /* AutoLayout.swift */; };
-		FA01074F211B774B0090AF1D /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA010735211B774B0090AF1D /* TextField.swift */; };
 		FA010753211B774B0090AF1D /* LabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA010736211B774B0090AF1D /* LabelStyle.swift */; };
 		FA010757211B774B0090AF1D /* ViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA010737211B774B0090AF1D /* ViewStyle.swift */; };
 		FA01075B211B774B0090AF1D /* BorderStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA010738211B774B0090AF1D /* BorderStyle.swift */; };
@@ -41,7 +40,6 @@
 		AD2FAA281CD0B6E100659CF4 /* StylesTests.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = StylesTests.plist; sourceTree = "<group>"; };
 		FA010732211B774B0090AF1D /* ButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
 		FA010733211B774B0090AF1D /* AutoLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoLayout.swift; sourceTree = "<group>"; };
-		FA010735211B774B0090AF1D /* TextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
 		FA010736211B774B0090AF1D /* LabelStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelStyle.swift; sourceTree = "<group>"; };
 		FA010737211B774B0090AF1D /* ViewStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewStyle.swift; sourceTree = "<group>"; };
 		FA010738211B774B0090AF1D /* BorderStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderStyle.swift; sourceTree = "<group>"; };
@@ -110,7 +108,6 @@
 				FA010732211B774B0090AF1D /* ButtonStyle.swift */,
 				FA010736211B774B0090AF1D /* LabelStyle.swift */,
 				FA010741211B774B0090AF1D /* StackViewStyle.swift */,
-				FA010735211B774B0090AF1D /* TextField.swift */,
 				FA01073C211B774B0090AF1D /* TextFieldStyle.swift */,
 				FA01073F211B774B0090AF1D /* Utilities.swift */,
 				FA010740211B774B0090AF1D /* View.swift */,
@@ -264,7 +261,6 @@
 				FA01075B211B774B0090AF1D /* BorderStyle.swift in Sources */,
 				FA01076B211B774B0090AF1D /* TextFieldStyle.swift in Sources */,
 				FA01075F211B774B0090AF1D /* ImageViewStyle.swift in Sources */,
-				FA01074F211B774B0090AF1D /* TextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

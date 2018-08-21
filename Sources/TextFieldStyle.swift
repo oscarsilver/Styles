@@ -31,3 +31,20 @@ public struct TextFieldStyle {
         self.keyboardType = keyboardType
     }
 }
+
+public extension UITextField {
+    public convenience init(placeholder: String? = nil, style: TextFieldStyle) {
+        self.init(frame: .zero)
+        self.placeholder = placeholder
+        setup(with: style)
+    }
+
+    private func setup(with style: TextFieldStyle) {
+        font = style.font
+        backgroundColor = style.color
+        textColor = style.textColor
+        textAlignment = style.textAlignment
+        keyboardType = style.keyboardType
+        tintColor = style.tintColor
+    }
+}

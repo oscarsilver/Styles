@@ -62,4 +62,19 @@ class StyleSetupTests: XCTestCase {
         XCTAssertEqual(stackView.spacing, style.spacing)
         XCTAssertEqual(stackView.subviews.count, 2)
     }
+
+    func testTextFieldSetup() {
+        let style = TextFieldStyle(font: font, color: .red, textColor: .red,
+                                   tintColor: .red, textAlignment: .center, keyboardType: .alphabet)
+        let placeholder = "Test"
+        let textField = UITextField(placeholder: placeholder, style: style)
+
+        XCTAssertEqual(textField.font, style.font)
+        XCTAssertEqual(textField.backgroundColor, style.color)
+        XCTAssertEqual(textField.textColor, style.textColor)
+        XCTAssertEqual(textField.tintColor, style.tintColor)
+        XCTAssertEqual(textField.textAlignment, style.textAlignment)
+        XCTAssertEqual(textField.keyboardType, style.keyboardType)
+        XCTAssertEqual(textField.placeholder, placeholder)
+    }
 }
