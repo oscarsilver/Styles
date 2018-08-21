@@ -18,7 +18,6 @@
 		FA01075F211B774B0090AF1D /* ImageViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA010739211B774B0090AF1D /* ImageViewStyle.swift */; };
 		FA010767211B774B0090AF1D /* ShadowStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA01073B211B774B0090AF1D /* ShadowStyle.swift */; };
 		FA01076B211B774B0090AF1D /* TextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA01073C211B774B0090AF1D /* TextFieldStyle.swift */; };
-		FA01076F211B774B0090AF1D /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA01073D211B774B0090AF1D /* StackView.swift */; };
 		FA010777211B774B0090AF1D /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA01073F211B774B0090AF1D /* Utilities.swift */; };
 		FA01077B211B774B0090AF1D /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA010740211B774B0090AF1D /* View.swift */; };
 		FA01077F211B774B0090AF1D /* StackViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA010741211B774B0090AF1D /* StackViewStyle.swift */; };
@@ -49,7 +48,6 @@
 		FA010739211B774B0090AF1D /* ImageViewStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewStyle.swift; sourceTree = "<group>"; };
 		FA01073B211B774B0090AF1D /* ShadowStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowStyle.swift; sourceTree = "<group>"; };
 		FA01073C211B774B0090AF1D /* TextFieldStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldStyle.swift; sourceTree = "<group>"; };
-		FA01073D211B774B0090AF1D /* StackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackView.swift; sourceTree = "<group>"; };
 		FA01073F211B774B0090AF1D /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		FA010740211B774B0090AF1D /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		FA010741211B774B0090AF1D /* StackViewStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackViewStyle.swift; sourceTree = "<group>"; };
@@ -107,11 +105,10 @@
 			children = (
 				FA010733211B774B0090AF1D /* AutoLayout.swift */,
 				FA010738211B774B0090AF1D /* BorderStyle.swift */,
-				FA010732211B774B0090AF1D /* ButtonStyle.swift */,
-				FA010739211B774B0090AF1D /* ImageViewStyle.swift */,
-				FA010736211B774B0090AF1D /* LabelStyle.swift */,
 				FA01073B211B774B0090AF1D /* ShadowStyle.swift */,
-				FA01073D211B774B0090AF1D /* StackView.swift */,
+				FA010739211B774B0090AF1D /* ImageViewStyle.swift */,
+				FA010732211B774B0090AF1D /* ButtonStyle.swift */,
+				FA010736211B774B0090AF1D /* LabelStyle.swift */,
 				FA010741211B774B0090AF1D /* StackViewStyle.swift */,
 				FA010735211B774B0090AF1D /* TextField.swift */,
 				FA01073C211B774B0090AF1D /* TextFieldStyle.swift */,
@@ -268,7 +265,6 @@
 				FA01076B211B774B0090AF1D /* TextFieldStyle.swift in Sources */,
 				FA01075F211B774B0090AF1D /* ImageViewStyle.swift in Sources */,
 				FA01074F211B774B0090AF1D /* TextField.swift in Sources */,
-				FA01076F211B774B0090AF1D /* StackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

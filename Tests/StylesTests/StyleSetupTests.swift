@@ -14,12 +14,8 @@ class StyleSetupTests: XCTestCase {
     private lazy var font = UIFont.systemFont(ofSize: 16)
 
     func testLabelSetup() {
-        let style = LabelStyle(font: font,
-                               backgroundColor: .white,
-                               textColor: .black,
-                               textAlignment: .center,
-                               numberOfLines: 1,
-                               cornerRadius: 20)
+        let style = LabelStyle(font: font, backgroundColor: .white, textColor: .black,
+                               textAlignment: .center, numberOfLines: 1, cornerRadius: 20)
 
         let text = "Test"
         let label = UILabel(text: text, style: style)
@@ -52,5 +48,18 @@ class StyleSetupTests: XCTestCase {
         XCTAssertEqual(imageView.layer.cornerRadius, style.cornerRadius)
         XCTAssertEqual(imageView.tintColor, style.tintColor)
         XCTAssertEqual(imageView.image?.renderingMode, .alwaysTemplate)
+    }
+
+    func testStackViewSetup() {
+        let style = StackViewStyle(axis: .vertical, distribution: .fill, alignment: .center, spacing: 20)
+        let firstSubView = UIView(frame: .zero)
+        let secondSubView = UIView(frame: .zero)
+        let stackView = UIStackView(views: [firstSubView, secondSubView], style: style)
+
+        XCTAssertEqual(stackView.axis, style.axis)
+        XCTAssertEqual(stackView.distribution, style.distribution)
+        XCTAssertEqual(stackView.alignment, style.alignment)
+        XCTAssertEqual(stackView.spacing, style.spacing)
+        XCTAssertEqual(stackView.subviews.count, 2)
     }
 }
