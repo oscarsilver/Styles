@@ -18,7 +18,6 @@
 		FA010767211B774B0090AF1D /* ShadowStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA01073B211B774B0090AF1D /* ShadowStyle.swift */; };
 		FA01076B211B774B0090AF1D /* TextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA01073C211B774B0090AF1D /* TextFieldStyle.swift */; };
 		FA010777211B774B0090AF1D /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA01073F211B774B0090AF1D /* Utilities.swift */; };
-		FA01077B211B774B0090AF1D /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA010740211B774B0090AF1D /* View.swift */; };
 		FA01077F211B774B0090AF1D /* StackViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA010741211B774B0090AF1D /* StackViewStyle.swift */; };
 /* End PBXBuildFile section */
 
@@ -47,7 +46,6 @@
 		FA01073B211B774B0090AF1D /* ShadowStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowStyle.swift; sourceTree = "<group>"; };
 		FA01073C211B774B0090AF1D /* TextFieldStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldStyle.swift; sourceTree = "<group>"; };
 		FA01073F211B774B0090AF1D /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
-		FA010740211B774B0090AF1D /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		FA010741211B774B0090AF1D /* StackViewStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackViewStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -110,7 +108,6 @@
 				FA010741211B774B0090AF1D /* StackViewStyle.swift */,
 				FA01073C211B774B0090AF1D /* TextFieldStyle.swift */,
 				FA01073F211B774B0090AF1D /* Utilities.swift */,
-				FA010740211B774B0090AF1D /* View.swift */,
 				FA010737211B774B0090AF1D /* ViewStyle.swift */,
 			);
 			path = Sources;
@@ -253,7 +250,6 @@
 				FA010757211B774B0090AF1D /* ViewStyle.swift in Sources */,
 				FA01077F211B774B0090AF1D /* StackViewStyle.swift in Sources */,
 				FA010747211B774B0090AF1D /* AutoLayout.swift in Sources */,
-				FA01077B211B774B0090AF1D /* View.swift in Sources */,
 				FA010777211B774B0090AF1D /* Utilities.swift in Sources */,
 				FA010743211B774B0090AF1D /* ButtonStyle.swift in Sources */,
 				FA010767211B774B0090AF1D /* ShadowStyle.swift in Sources */,

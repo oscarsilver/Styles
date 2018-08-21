@@ -77,4 +77,12 @@ class StyleSetupTests: XCTestCase {
         XCTAssertEqual(textField.keyboardType, style.keyboardType)
         XCTAssertEqual(textField.placeholder, placeholder)
     }
+
+    func testViewSetup() {
+        let style = ViewStyle(color: .black, cornerRadius: 30, shadow: nil, border: nil)
+        let view = UIView(style: style)
+
+        XCTAssertEqual(view.backgroundColor, style.color)
+        XCTAssertEqual(view.layer.cornerRadius, style.cornerRadius)
+    }
 }
