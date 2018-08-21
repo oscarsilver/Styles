@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "Styles"
-  s.version      = "0.0.1"
+  s.version      = "0.1.0"
   s.summary      = "Convenient style structs for layout of UIKit classes"
   s.description  = <<-DESC
     Convenient style structs for layout of UIKit classes

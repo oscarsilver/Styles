@@ -1,10 +1,3 @@
-//
-//  StackViewStyle.swift
-//  SilverKit
-//
-//  Created by Oscar Silver on 2018-06-11.
-//
-
 import UIKit
 
 public struct StackViewStyle {
@@ -12,20 +5,29 @@ public struct StackViewStyle {
     let distribution: UIStackViewDistribution
     let alignment: UIStackViewAlignment
     let spacing: CGFloat
-    let layoutMargins: UIEdgeInsets
-    let isLayoutMarginsRelativeArrangement: Bool
 
     public init(axis: UILayoutConstraintAxis = .vertical,
          distribution: UIStackViewDistribution = .fill,
          alignment: UIStackViewAlignment = .fill,
-         spacing: CGFloat = 0,
-         layoutMargins: UIEdgeInsets = .zero,
-         isLayoutMarginsRelativeArrangement: Bool = false) {
+         spacing: CGFloat = 0) {
         self.axis = axis
         self.distribution = distribution
         self.alignment = alignment
         self.spacing = spacing
-        self.layoutMargins = layoutMargins
-        self.isLayoutMarginsRelativeArrangement = isLayoutMarginsRelativeArrangement
+    }
+}
+
+extension UIStackView {
+    public convenience init(views: [UIView] = [], style: StackViewStyle) {
+        self.init(frame: .zero)
+        setup(with: style)
+        views.forEach { addArrangedSubview($0) }
+    }
+
+    private func setup(with style: StackViewStyle) {
+        axis = style.axis
+        distribution = style.distribution
+        alignment = style.alignment
+        spacing = style.spacing
     }
 }
