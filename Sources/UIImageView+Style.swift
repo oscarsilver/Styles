@@ -1,12 +1,12 @@
 import UIKit
 
 public struct ImageViewStyle {
-    let contentMode: UIViewContentMode
+    let contentMode: UIView.ContentMode
     let cornerRadius: CGFloat?
     let borderStyle: BorderStyle?
     let tintColor: UIColor?
 
-    public init(contentMode: UIViewContentMode,
+    public init(contentMode: UIView.ContentMode,
          cornerRadius: CGFloat? = nil,
          borderStyle: BorderStyle? = nil,
          tintColor: UIColor? = nil) {
@@ -38,7 +38,7 @@ public extension UIImageView {
         }
 
         if let image = image {
-            let renderingMode: UIImageRenderingMode = style.tintColor != nil ? .alwaysTemplate : .alwaysOriginal
+            let renderingMode: UIImage.RenderingMode = style.tintColor != nil ? .alwaysTemplate : .alwaysOriginal
             self.image = image.withRenderingMode(renderingMode)
         }
     }

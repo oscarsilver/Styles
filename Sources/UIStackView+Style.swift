@@ -1,14 +1,14 @@
 import UIKit
 
 public struct StackViewStyle {
-    let axis: UILayoutConstraintAxis
-    let distribution: UIStackViewDistribution
-    let alignment: UIStackViewAlignment
+    let axis: NSLayoutConstraint.Axis
+    let distribution: UIStackView.Distribution
+    let alignment: UIStackView.Alignment
     let spacing: CGFloat
 
-    public init(axis: UILayoutConstraintAxis = .vertical,
-         distribution: UIStackViewDistribution = .fill,
-         alignment: UIStackViewAlignment = .fill,
+    public init(axis: NSLayoutConstraint.Axis = .vertical,
+         distribution: UIStackView.Distribution = .fill,
+         alignment: UIStackView.Alignment = .fill,
          spacing: CGFloat = 0) {
         self.axis = axis
         self.distribution = distribution
