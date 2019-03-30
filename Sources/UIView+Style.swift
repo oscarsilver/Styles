@@ -19,7 +19,7 @@ public struct ViewStyle {
 }
 
 public extension UIView {
-    public convenience init(style: ViewStyle) {
+    convenience init(style: ViewStyle) {
         self.init(frame: .zero)
         setup(with: style)
     }

@@ -25,7 +25,7 @@ public struct ButtonStyle {
 }
 
 public extension UIButton {
-    public convenience init(title: String? = nil, image: UIImage? = nil, style: ButtonStyle) {
+    convenience init(title: String? = nil, image: UIImage? = nil, style: ButtonStyle) {
         self.init(frame: .zero)
         setTitle(title, for: .normal)
         setImage(image, for: .normal)

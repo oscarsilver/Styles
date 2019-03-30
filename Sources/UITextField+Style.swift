@@ -26,7 +26,7 @@ public struct TextFieldStyle {
 }
 
 public extension UITextField {
-    public convenience init(placeholder: String? = nil, style: TextFieldStyle) {
+    convenience init(placeholder: String? = nil, style: TextFieldStyle) {
         self.init(frame: .zero)
         self.placeholder = placeholder
         setup(with: style)

@@ -26,7 +26,7 @@ public struct LabelStyle {
 }
 
 public extension UILabel {
-    public convenience init(text: String? = nil, style: LabelStyle) {
+    convenience init(text: String? = nil, style: LabelStyle) {
         self.init(frame: .zero)
         self.text = text
         setup(with: style)

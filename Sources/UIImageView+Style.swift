@@ -18,7 +18,7 @@ public struct ImageViewStyle {
 }
 
 public extension UIImageView {
-    public convenience init(image: UIImage? = nil, style: ImageViewStyle) {
+    convenience init(image: UIImage? = nil, style: ImageViewStyle) {
         self.init(frame: .zero)
         setup(with: style, image: image)
     }
